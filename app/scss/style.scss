@@ -274,3 +274,69 @@
 	}
 }
 // end product-slider
+// start price
+.price {
+	background: $bg;
+	padding: 121px 0;
+	.price__title {
+		h2 {
+			color: #fff;
+			text-align: center;
+			font-size: 36px;
+			font-weight: 700;
+			line-height: 60px;
+		}
+	}
+	.price__inner {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.price__item {
+		max-width: 325px;
+		width: 100%;
+		text-align: center;
+		margin-top: 105px;
+		position: relative;
+		z-index: 1;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+		.price__disk,
+		.price__disk-center {
+			position: absolute;
+			background: #fff;
+			width: 115px;
+			height: 115px;
+			border-radius: 50%;
+			top: -22px;
+			right: 105px;
+			z-index: -1;
+		}
+		.price__disk-center {
+			background: $green;
+		}
+		.price__title-info {
+			margin-top: 60px;
+			h3 {
+				font-size: 24px;
+				font-weight: 500;
+				color: #fff;
+			}
+			.green {
+				color: $green;
+			}
+		}
+		p {
+			color: #b0bec5;
+		}
+	}
+}
+
+.galery {
+	background: url(../images/content/galery.jpg) top center / cover no-repeat;
+	width: 100%;
+	min-height: 761px;
+
+}
