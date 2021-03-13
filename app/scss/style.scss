@@ -338,5 +338,31 @@
 	background: url(../images/content/galery.jpg) top center / cover no-repeat;
 	width: 100%;
 	min-height: 761px;
-
+	padding: 245px 0;
+	.galery__wraper {
+		background: $green;
+		max-width: 653px;
+		width: 100%;
+		padding: 60px 60px;
+		margin: 0 auto;
+		.galery__inner {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			.galery__text {
+				color: #fff;
+				p {
+					max-width: 275px;
+					font-size: 30px;
+					line-height: 1.2;
+				}
+			}
+		}
+		.galery__btn {
+			a {
+				background: #fff;
+				padding: 20px 40px;
+			}
+		}
+	}
 }
