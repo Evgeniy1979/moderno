@@ -338,8 +338,6 @@
 
 .galery {
 	background: url(../images/content/galery.jpg) top center / cover no-repeat;
-	width: 100%;
-	min-height: 761px;
 	padding: 245px 0;
 	.galery__wraper {
 		background: $green;
@@ -369,3 +367,30 @@
 	}
 }
 // end galery
+// tutorial start
+.tutorial {
+	padding: 70px 0 120px;
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		max-width: 370px;
+		width: 100%;
+	}
+}
+.tutorial__item {
+	&-images {
+		min-height: 270px;
+		background: center / cover no-repeat;
+	}
+	&-title {
+		background: #f8f8f8;
+		font-size: 24px;
+		text-align: center;
+		font-weight: 700;
+		padding: 30px 10px;
+		color: $bg;
+	}
+}
+// tutorial end
